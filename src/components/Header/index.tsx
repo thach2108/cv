@@ -1,13 +1,30 @@
 import { Icon } from "assets/svg";
 import cx from "classnames";
+import MenuIcon from "components/MenuIcon";
+import { observer } from "mobx-react-lite";
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useMainStore } from "store";
 import { MENU, MenuType } from "utils/constants";
 
 function Header() {
+  const { activeMenu } = useMainStore();
+
   return (
-    <div className="max-w-screen-xl m-auto py-6">
-      <ul className="flex gap-6 font-bold">
+    <div className="max-w-screen-xl m-auto py-6 relative">
+      <div className="flex justify-end">
+        <MenuIcon></MenuIcon>
+      </div>
+      <ul
+        className={cx([
+          activeMenu ? "block" : "hidden",
+          "py-2 px-4 md:p-0",
+          "absolute md:static",
+          "border md:border-transparent",
+          "gap-6 font-bold right-0 top-full bg-white",
+          "md:flex rounded-xl md:rounded-none mt-5 md:mt-0",
+        ])}
+      >
         {MENU.map((m) => (
           <Menu key={m.path} m={m} />
         ))}
@@ -27,7 +44,9 @@ const Menu = ({ m }: { m: MenuType }) => {
       path={m.path}
       subMenu={
         m.children ? (
-          <ul className="mt-1 bg-white rounded-xl border border-gray-200 px-4 py-2">
+          <ul
+            className={cx(["bg-white rounded-xl md:border", "px-4 py-2 mt-1"])}
+          >
             {m.children.map((m1) => (
               <Menu key={m1.path} m={m1} />
             ))}
@@ -75,8 +94,7 @@ const MenuItem = ({
   return (
     <li
       className={cx([
-        "w-max py-1",
-        "flex items-center relative",
+        "relative w-max py-1",
         "hover:text-blue-600",
         pathname === path
           ? pathname === path.split("#")[0]
@@ -88,15 +106,20 @@ const MenuItem = ({
       ])}
       onClick={handleClick}
     >
-      {children}
-      <div
-        className="overflow-hidden absolute left-0 top-full transition-all"
-        style={{ height: active ? 186 : 0 }}
-      >
-        {subMenu}
-      </div>
+      <div className="flex items-center cursor-pointer">{children}</div>
+      {subMenu ? (
+        <div
+          className={cx([
+            "top-full transition-all",
+            "overflow-hidden md:absolute left-0",
+          ])}
+          style={{ height: active ? 186 : 0 }}
+        >
+          {subMenu}
+        </div>
+      ) : null}
     </li>
   );
 };
 
-export default Header;
+export default observer(Header);

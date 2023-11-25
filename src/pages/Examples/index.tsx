@@ -6,7 +6,7 @@ function Examples() {
   return (
     <Layout>
       <section>
-        <H1>{MENU[3]?.text}</H1>
+        <H1>{MENU[4]?.text}</H1>
         <ul className="list-disc ml-10">
           <li>
             <a

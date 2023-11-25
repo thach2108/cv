@@ -40,6 +40,10 @@ export const MENU: MenuType[] = [
     text: "Attended Projects",
   },
   {
+    path: "/certs",
+    text: "My Certs",
+  },
+  {
     path: "/examples",
     text: "Examples",
   },

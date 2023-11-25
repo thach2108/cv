@@ -10,7 +10,7 @@ function Home() {
         <div
           id={MENU[0]?.children?.[0]?.path.replace("/#", "")}
           className="absolute"
-          style={{ top: "-85px" }}
+          style={{ top: "-110px" }}
         ></div>
         <H1>{MENU[0]?.children?.[0]?.text}</H1>
         <div className="flex gap-16">
@@ -33,7 +33,7 @@ function Home() {
         <div
           id={MENU[0]?.children?.[1]?.path.replace("/#", "")}
           className="absolute"
-          style={{ top: "-85px" }}
+          style={{ top: "-110px" }}
         ></div>
         <H1>{MENU[0]?.children?.[1]?.text}</H1>
 
@@ -65,7 +65,7 @@ function Home() {
         <div
           id={MENU[0]?.children?.[2]?.path.replace("/#", "")}
           className="absolute"
-          style={{ top: "-85px" }}
+          style={{ top: "-110px" }}
         ></div>
         <H1>{MENU[0]?.children?.[2]?.text}</H1>
         <ul className="list-disc ml-10">
@@ -84,7 +84,7 @@ function Home() {
         <div
           id={MENU[0]?.children?.[3]?.path.replace("/#", "")}
           className="absolute"
-          style={{ top: "-85px" }}
+          style={{ top: "-110px" }}
         ></div>
         <H1>{MENU[0]?.children?.[3]?.text}</H1>
         <ul className="list-disc ml-10">
@@ -97,7 +97,7 @@ function Home() {
         <div
           id={MENU[0]?.children?.[4]?.path.replace("/#", "")}
           className="absolute"
-          style={{ top: "-85px" }}
+          style={{ top: "-110px" }}
         ></div>
         <H1>{MENU[0]?.children?.[4]?.text}</H1>
         <table>
