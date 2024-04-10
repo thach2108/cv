@@ -1,12 +1,11 @@
 import H1 from "components/H1";
 import Layout from "components/Layout";
-import { MENU } from "utils/constants";
 
 function Examples() {
   return (
     <Layout>
       <section>
-        <H1>{MENU[4]?.text}</H1>
+        <H1>Examples</H1>
         <ul className="list-disc ml-10">
           <li>
             <a
@@ -32,6 +31,17 @@ function Examples() {
           <li>
             <a className="underline underline-offset-2 text-green-500" href="/html5-game/">
               HTML5 Game example
+            </a>
+          </li>
+        </ul>
+        <H1>Old Projects</H1>
+        <ul className="list-disc ml-10">
+          <li>
+            <a
+              className="underline underline-offset-2 text-green-500"
+              href="https://thach2108.github.io/fundiin/"
+            >
+              Fundiin
             </a>
           </li>
         </ul>

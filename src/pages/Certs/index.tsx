@@ -5,7 +5,7 @@ import { MENU } from "utils/constants";
 
 function Examples() {
   return (
-    <Layout>
+    <Layout className="cert">
       <section>
         <H1>{MENU[3]?.text}</H1>
         <ul className="list-disc ml-10">
@@ -14,11 +14,23 @@ function Examples() {
               target="_blank"
               rel="noreferrer"
               className="underline underline-offset-2 text-green-500"
-              href="https://www.hackerrank.com/certificates/db824e7247ae"
+              href="https://www.hackerrank.com/certificates/0295b14882b1"
             >
-              CSS certificate
+              Frontend Developer (React) Certificate
             </a>
-            <img src={Img.cssCertUrl} alt="CSS certificate" />
+            <img src={Img.feReactCertUrl} alt="Frontend Developer (React) Certificate" />
+            <br />
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="underline underline-offset-2 text-green-500"
+              href="https://www.hackerrank.com/certificates/19c3450fce76"
+            >
+              Sql intermediate certificate
+            </a>
+            <img src={Img.sqlInterCertUrl} alt="Sql intermediate certificate" />
             <br />
           </li>
           <li>
@@ -50,11 +62,11 @@ function Examples() {
               target="_blank"
               rel="noreferrer"
               className="underline underline-offset-2 text-green-500"
-              href="https://www.hackerrank.com/certificates/19c3450fce76"
+              href="https://www.hackerrank.com/certificates/db824e7247ae"
             >
-              Sql intermediate certificate
+              CSS certificate
             </a>
-            <img src={Img.sqlInterCertUrl} alt="Sql intermediate certificate" />
+            <img src={Img.cssCertUrl} alt="CSS certificate" />
             <br />
           </li>
         </ul>

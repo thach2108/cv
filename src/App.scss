@@ -7,6 +7,7 @@
 
 .custom-svg {
   fill: currentColor;
+
   &__stroke {
     stroke: currentColor;
   }
@@ -32,4 +33,11 @@ tr:nth-child(even) {
 .menu-icon {
   width: 26px;
   height: 18px;
+}
+
+.cert {
+  img {
+    max-width: 800px;
+    min-height: 600px;
+  }
 }

@@ -45,6 +45,6 @@ export const MENU: MenuType[] = [
   },
   {
     path: "/examples",
-    text: "Examples",
+    text: "Examples & Old Projects",
   },
 ];
