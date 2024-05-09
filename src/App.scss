@@ -14,7 +14,7 @@
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -26,7 +26,7 @@ th {
   padding: 8px;
 }
 
-tr:nth-child(even) {
+.even tr:nth-child(even) {
   background-color: #eeeeee;
 }
 
@@ -35,9 +35,9 @@ tr:nth-child(even) {
   height: 18px;
 }
 
-.cert {
-  img {
+.cert,
+.example {
+  section {
     max-width: 800px;
-    min-height: 600px;
   }
 }

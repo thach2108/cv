@@ -1,48 +1,85 @@
+import { Img } from "assets/img";
 import H1 from "components/H1";
 import Layout from "components/Layout";
 
 function Examples() {
   return (
-    <Layout>
+    <Layout className="example">
       <section>
         <H1>Examples</H1>
-        <ul className="list-disc ml-10">
+        <ul>
           <li>
             <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://thach2108.github.io/react-count-down/"
               className="underline underline-offset-2 text-green-500"
-              href="/react-count-down/"
             >
               React Count Down Animation example
             </a>
+            <br />
           </li>
           <li>
             <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://thach2108.github.io/two-factor-auth/"
               className="underline underline-offset-2 text-green-500"
-              href="/two-factor-auth/"
             >
               React Two-Factor Authentication example
             </a>
+            <br />
           </li>
           <li>
-            <a className="underline underline-offset-2 text-green-500" href="/canvas-game/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://thach2108.github.io/canvas-game/"
+              className="underline underline-offset-2 text-green-500"
+            >
               Canvas Game example
             </a>
+            <img
+              alt="Canvas Game"
+              className="cover-img"
+              src={Img.canvasGameUrl}
+            />
+            <br />
           </li>
           <li>
-            <a className="underline underline-offset-2 text-green-500" href="/html5-game/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://thach2108.github.io/html5-game/"
+              className="underline underline-offset-2 text-green-500"
+            >
               HTML5 Game example
             </a>
+            <img
+              className="cover-img"
+              src={Img.html5GameUrl}
+              alt="HTML5 Game example"
+            />
+            <br />
           </li>
         </ul>
         <H1>Old Projects</H1>
-        <ul className="list-disc ml-10">
-          <li>
+        <ul>
+          <li className="mb-4">
             <a
-              className="underline underline-offset-2 text-green-500"
+              target="_blank"
+              rel="noreferrer"
               href="https://thach2108.github.io/fundiin/"
+              className="underline underline-offset-2 text-green-500"
             >
               Fundiin
             </a>
+            <img
+              src={Img.fundiinUrl}
+              className="cover-img"
+              alt="Fundiin landing page"
+            />
+            <br />
           </li>
         </ul>
       </section>

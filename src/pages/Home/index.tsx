@@ -3,156 +3,211 @@ import H1 from "components/H1";
 import Layout from "components/Layout";
 import { MENU } from "utils/constants";
 
+export const S1 = () => {
+  return (
+    <section className="relative">
+      <div
+        id={MENU[0]?.children?.[0]?.path.replace("/#", "")}
+        className="absolute"
+        style={{ top: "-110px" }}
+      ></div>
+      <H1>{MENU[0]?.children?.[0]?.text}</H1>
+      <div className="sm:flex">
+        <img
+          className="border border-blue-500 h-40"
+          src={Img.avatarUrl}
+          alt="avatar"
+        />
+        <ul className="list-disc font-medium mt-4 ml-5 sm:ml-16">
+          <li>Full name: DO DANG THACH</li>
+          <li>Gender: male</li>
+          <li>Mobile: 0384946866</li>
+          <li>Date of birth: 03/10/1996</li>
+          <li>Email: thachdd.fe@gmail.com</li>
+        </ul>
+      </div>
+    </section>
+  );
+};
+
+export const S2 = () => {
+  return (
+    <section className="relative">
+      <div
+        id={MENU[0]?.children?.[1]?.path.replace("/#", "")}
+        className="absolute"
+        style={{ top: "-110px" }}
+      ></div>
+      <H1>{MENU[0]?.children?.[1]?.text}</H1>
+
+      <ul className="list-disc ml-10">
+        <li>
+          {new Date().getFullYear() - 2019}
+          {new Date().getMonth() > 5 ? "+" : ""} years of experience in Web
+          Development.
+        </li>
+        <li>
+          HTML5, CSS3 (font-face, animation, keyframes, SEO, responsive, perfect
+          pixel, …),
+        </li>
+        <li>JavaScript, Jquery</li>
+        <li>Cross browser compatibility,</li>
+        <li>ReactJS, Angular 2+, Vue, AngularJS, TypeScript,</li>
+        <li>RESTful API, Socket IO,</li>
+        <li>Git, SVN, Git Flow,</li>
+        <li>Agile/Scrum,</li>
+        <li>Test automation (unit test, e2e test),</li>
+        <li>
+          python (Tornado, SpeechRecognition, Pytorch, YOLOv8-Ultralytics),
+        </li>
+        <li>PHP (Laravel), C# (.net, .net core), Nodejs (Express),</li>
+        <li>MySQL, SQL Server,</li>
+        <li>bash script, Nginx, Apache, XAMPP, Docker Desktop and CI/CD.</li>
+        <li>
+          Good problem-solving mindset, quick research, and willingness to learn
+          new technologies.
+        </li>
+      </ul>
+    </section>
+  );
+};
+
+export const S3 = () => {
+  return (
+    <section className="relative">
+      <div
+        id={MENU[0]?.children?.[2]?.path.replace("/#", "")}
+        className="absolute"
+        style={{ top: "-110px" }}
+      ></div>
+      <H1>{MENU[0]?.children?.[2]?.text}</H1>
+      <ul className="list-disc ml-10 max-w-xl">
+        <li>HA NOI UNIVERSITY OF INDUSTRY: 2015-2019</li>
+        <li>Major: Computer science</li>
+        <li>
+          Related coursework:
+          <p>
+            C++, AI basic, Data Structure & Algorithms, SQL Server, Web
+            programming, Project management (water fall), Test automation
+            (selenium), WinForms C# …
+          </p>
+        </li>
+        <li>GPA: 3.16/4</li>
+      </ul>
+    </section>
+  );
+};
+
+export const S4 = () => {
+  return (
+    <section className="relative">
+      <div
+        id={MENU[0]?.children?.[3]?.path.replace("/#", "")}
+        className="absolute"
+        style={{ top: "-110px" }}
+      ></div>
+      <H1>{MENU[0]?.children?.[3]?.text}</H1>
+      <ul className="list-disc ml-10">
+        <li>Vietnamese: native language</li>
+        <li>English: basic (read, write)</li>
+      </ul>
+    </section>
+  );
+};
+
+export const S5 = () => {
+  return (
+    <section className="relative">
+      <div
+        id={MENU[0]?.children?.[4]?.path.replace("/#", "")}
+        className="absolute"
+        style={{ top: "-110px" }}
+      ></div>
+      <H1>{MENU[0]?.children?.[4]?.text}</H1>
+      <table className="even">
+        <thead>
+          <tr>
+            <th>Period</th>
+            <th>Company</th>
+            <th>Job Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>08/2023 - NOW</td>
+            <td>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://fptsoftware.com/"
+                className="underline underline-offset-2 text-green-500"
+              >
+                FPT Software
+              </a>
+            </td>
+            <td>Front-end</td>
+          </tr>
+          <tr>
+            <td>06/2022 - 06/2023</td>
+            <td>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.cmcglobal.com/"
+                className="underline underline-offset-2 text-green-500"
+              >
+                CMC Global
+              </a>
+            </td>
+            <td>Front-end</td>
+          </tr>
+          <tr>
+            <td>05/2021 - 05/2022</td>
+            <td>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://niteco.com/"
+                className="underline underline-offset-2 text-green-500"
+              >
+                Niteco
+              </a>
+            </td>
+            <td>Front-end</td>
+          </tr>
+          <tr>
+            <td>07/2019 - 04/2021</td>
+            <td>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://vsec.com.vn/"
+                className="underline underline-offset-2 text-green-500"
+              >
+                VSEC - Công ty Cổ phần An Ninh Mạng Việt Nam
+              </a>
+            </td>
+            <td>Front-end</td>
+          </tr>
+          <tr>
+            <td>07/2018 - 06/2019</td>
+            <td>3F (This company has been dissolved)</td>
+            <td>Front-end</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  );
+};
+
 function Home() {
   return (
     <Layout>
-      <section className="relative">
-        <div
-          id={MENU[0]?.children?.[0]?.path.replace("/#", "")}
-          className="absolute"
-          style={{ top: "-110px" }}
-        ></div>
-        <H1>{MENU[0]?.children?.[0]?.text}</H1>
-        <div className="flex gap-16">
-          <img
-            className="border border-blue-500 h-40"
-            src={Img.avatarUrl}
-            alt="avatar"
-          />
-          <ul className="list-disc font-semibold">
-            <li>Full name: DO DANG THACH</li>
-            <li>Gender: male</li>
-            <li>Mobile: 0384946866</li>
-            <li>Date of birth: 03/10/1996</li>
-            <li>Email: thachdd.fe@gmail.com</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="relative">
-        <div
-          id={MENU[0]?.children?.[1]?.path.replace("/#", "")}
-          className="absolute"
-          style={{ top: "-110px" }}
-        ></div>
-        <H1>{MENU[0]?.children?.[1]?.text}</H1>
-
-        <ul className="list-disc ml-10">
-          <li>4+ years experience in Web Development.</li>
-          <li>
-            HTML5, CSS3 (font-face, animation, keyframes, …), JavaScript,
-            responsive (support most of devices: mobile, tablet, desktop, mobile
-            first), cross browser compatibility , RESTful API, Socket IO,
-            ReactJS, Angular 2+, Vue, AngularJS, TypeScript, Git, Git Flow,
-            Agile/Scrum, Test automation (unit test, e2e test), python (Tornado,
-            SpeechRecognition, Pytorch, YOLOv8-Ultralytics), PHP (Laravel), c#
-            (.net, .net core), Nodejs (Express), MySQL, SQL Server, bash script,
-            Nginx, Apache, XAMPP, Docker Desktop and CI/CD.
-          </li>
-          <li>
-            I can handle whole parts in the FE project such as: define folder
-            structure, define common components, do coding the login flow, CRUD,
-            display the screen follow the role of the user, drag-drop items, …
-          </li>
-          <li>
-            Good problem-solving mindset, quick research, and willingness to
-            learn new technologies.
-          </li>
-        </ul>
-      </section>
-
-      <section className="relative">
-        <div
-          id={MENU[0]?.children?.[2]?.path.replace("/#", "")}
-          className="absolute"
-          style={{ top: "-110px" }}
-        ></div>
-        <H1>{MENU[0]?.children?.[2]?.text}</H1>
-        <ul className="list-disc ml-10">
-          <li>HA NOI UNIVERSITY OF INDUSTRY: 2015-2019</li>
-          <li>Major: Computer science</li>
-          <li>
-            Related coursework: C++, AI basic, Data Structure & Algorithms, SQL
-            Server, Web programming, Project management (water fall), Test
-            automation (selenium), WinForms C# …
-          </li>
-          <li>GPA: 3.16/4</li>
-        </ul>
-      </section>
-
-      <section className="relative">
-        <div
-          id={MENU[0]?.children?.[3]?.path.replace("/#", "")}
-          className="absolute"
-          style={{ top: "-110px" }}
-        ></div>
-        <H1>{MENU[0]?.children?.[3]?.text}</H1>
-        <ul className="list-disc ml-10">
-          <li>Vietnamese: native language</li>
-          <li>English: basic (read, write)</li>
-        </ul>
-      </section>
-
-      <section className="relative">
-        <div
-          id={MENU[0]?.children?.[4]?.path.replace("/#", "")}
-          className="absolute"
-          style={{ top: "-110px" }}
-        ></div>
-        <H1>{MENU[0]?.children?.[4]?.text}</H1>
-        <table>
-          <thead>
-            <tr>
-              <th>Period</th>
-              <th>Company</th>
-              <th>Job Title</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>01/218 - 06/2019</td>
-              <td>3F (This company has been dissolved)</td>
-              <td>Front-end</td>
-            </tr>
-            <tr>
-              <td>06/2019 - 04/2021</td>
-              <td>
-                <a
-                  className="underline underline-offset-2 text-green-500"
-                  href="https://vsec.com.vn/"
-                >
-                  VSEC - Công ty Cổ phần An Ninh Mạng Việt Nam
-                </a>
-              </td>
-              <td>Front-end</td>
-            </tr>
-            <tr>
-              <td>05/2021 - 05/2022</td>
-              <td>
-                <a
-                  className="underline underline-offset-2 text-green-500"
-                  href="https://niteco.com/"
-                >
-                  Niteco
-                </a>
-              </td>
-              <td>Front-end</td>
-            </tr>
-            <tr>
-              <td>06/2022 - 06/2023</td>
-              <td>
-                <a
-                  className="underline underline-offset-2 text-green-500"
-                  href="https://www.cmcglobal.com/"
-                >
-                  CMC Global
-                </a>
-              </td>
-              <td>Front-end</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+      <S1 />
+      <S2 />
+      <S3 />
+      <S4 />
+      <S5 />
     </Layout>
   );
 }
