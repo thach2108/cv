@@ -18,9 +18,9 @@ import { fontThin } from "./font/Roboto-Thin-normal";
 
 function Header() {
   const { activeMenu } = useMainStore();
-  const [downloading, setDownloading] = useState(false);
+  const [exporting, setExporting] = useState(false);
 
-  const handleDownload = async () => {
+  const handleExport = async () => {
     const html = renderToStaticMarkup(<CollectContent />);
 
     const doc = new jsPDF({
@@ -58,7 +58,7 @@ function Header() {
 
     if (!html) return;
 
-    setDownloading(true);
+    setExporting(true);
     doc.html(html, {
       x: 50,
       autoPaging: true,
@@ -67,7 +67,7 @@ function Header() {
       },
       async callback(doc: any) {
         await doc.save("Do Dang Thach");
-        setDownloading(false);
+        setExporting(false);
       },
     });
   };
@@ -91,8 +91,8 @@ function Header() {
           <Menu key={m.path} m={m} />
         ))}
         <li className="text-gray-600 w-max py-1 flex items-center relative hover:text-blue-600">
-          <button onClick={handleDownload}>
-            {downloading ? "Downloading..." : "Download pdf"}
+          <button onClick={handleExport}>
+            {exporting ? "Exporting..." : "Export pdf"}
           </button>
         </li>
       </ul>
