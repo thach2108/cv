@@ -204,6 +204,6 @@ export const data = [
     {
       text: "Nginx, Bash script, Docker, CI/CD",
     },
-    { tag: "th", text: "Very good" },
+    { text: "Fundamental Awareness" },
   ],
 ];

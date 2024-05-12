@@ -14,16 +14,18 @@ export const S1 = () => {
       <H1>{MENU[0]?.children?.[0]?.text}</H1>
       <div className="sm:flex">
         <img
-          className="border border-blue-500 h-40"
+          className="border border-blue-500 h-44 ml-0 md:ml-4 mb-4"
           src={Img.avatarUrl}
           alt="avatar"
         />
-        <ul className="list-disc font-medium mt-4 ml-5 sm:ml-16">
+        <ul className="list-disc font-medium ml-5 sm:ml-16">
           <li>Full name: DO DANG THACH</li>
           <li>Gender: male</li>
           <li>Mobile: 0384946866</li>
           <li>Date of birth: 03/10/1996</li>
           <li>Email: thachdd.fe@gmail.com</li>
+          <li>Github: https://github.com/thach2108</li>
+          <li>Own website: https://thach2108.github.io</li>
         </ul>
       </div>
     </section>
@@ -40,7 +42,7 @@ export const S2 = () => {
       ></div>
       <H1>{MENU[0]?.children?.[1]?.text}</H1>
 
-      <ul className="list-disc ml-10">
+      <ul className="list-disc ml-5 md:ml-8">
         <li>
           {new Date().getFullYear() - 2019}
           {new Date().getMonth() > 5 ? "+" : ""} years of experience in Web
@@ -81,7 +83,7 @@ export const S3 = () => {
         style={{ top: "-110px" }}
       ></div>
       <H1>{MENU[0]?.children?.[2]?.text}</H1>
-      <ul className="list-disc ml-10 max-w-xl">
+      <ul className="list-disc ml-5 md:ml-8 max-w-xl">
         <li>HA NOI UNIVERSITY OF INDUSTRY: 2015-2019</li>
         <li>Major: Computer science</li>
         <li>
@@ -107,7 +109,7 @@ export const S4 = () => {
         style={{ top: "-110px" }}
       ></div>
       <H1>{MENU[0]?.children?.[3]?.text}</H1>
-      <ul className="list-disc ml-10">
+      <ul className="list-disc ml-5 md:ml-8">
         <li>Vietnamese: native language</li>
         <li>English: basic (read, write)</li>
       </ul>

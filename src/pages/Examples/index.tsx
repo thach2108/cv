@@ -28,6 +28,14 @@ function Examples() {
             >
               React Two-Factor Authentication example
             </a>
+            <div className="flex gap-4">
+              <img alt="2 fa auth" className="cover-img" src={Img.twoFAUrl} />
+              <img
+                className="cover-img"
+                alt="2 fa auth unit test"
+                src={Img.twoFAUnitestUrl}
+              />
+            </div>
             <br />
           </li>
           <li>

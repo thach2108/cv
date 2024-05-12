@@ -25,7 +25,6 @@ function CollectContent() {
       <br />
       <br />
       <br />
-      <br />
       <S5 />
       <section>
         <H1>{MENU[1]?.text}</H1>
