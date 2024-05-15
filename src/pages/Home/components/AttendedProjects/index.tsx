@@ -38,13 +38,13 @@ export const AttendedProjectsTable = ({ data }: { data: any }) => {
 
 const AttendedProjects = () => {
   return (
-    <section>
+    <section className="relative">
       <div
         id={MENU[0]?.children?.[6]?.path.replace("/#", "")}
         className="absolute"
         style={{ top: "-110px" }}
       ></div>
-      <H1>{MENU[2]?.text}</H1>
+      <H1>{MENU[0]?.children?.[6]?.text}</H1>
       <AttendedProjectsTable data={data} />
     </section>
   );

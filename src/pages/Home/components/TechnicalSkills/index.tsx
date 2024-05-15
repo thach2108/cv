@@ -37,13 +37,13 @@ export const TechnicalSkillsTable = ({
 
 const TechnicalSkills = () => {
   return (
-    <section>
+    <section className="relative">
       <div
         id={MENU[0]?.children?.[5]?.path.replace("/#", "")}
         className="absolute"
         style={{ top: "-110px" }}
       ></div>
-      <H1>{MENU[1]?.text}</H1>
+      <H1>{MENU[0]?.children?.[5]?.text}</H1>
       <TechnicalSkillsTable data={data} className="even" />
     </section>
   );
