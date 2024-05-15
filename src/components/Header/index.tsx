@@ -100,17 +100,18 @@ function Header() {
   );
 }
 
-const Menu = ({ m }: { m: MenuType }) => {
+const Menu = ({ m, isChild = false }: { m: MenuType; isChild?: Boolean }) => {
   return (
     <MenuItem
       path={m.path}
+      isChild={isChild}
       subMenu={
         m.children ? (
           <ul
             className={cx(["bg-white rounded-xl md:border", "px-4 py-2 mt-1"])}
           >
             {m.children.map((m1) => (
-              <Menu key={m1.path} m={m1} />
+              <Menu isChild key={m1.path} m={m1} />
             ))}
           </ul>
         ) : null
@@ -134,9 +135,11 @@ const Menu = ({ m }: { m: MenuType }) => {
 const MenuItem = ({
   path,
   subMenu,
+  isChild,
   children,
 }: React.PropsWithChildren & {
   path: string;
+  isChild: Boolean;
   subMenu: React.ReactElement | null;
 }) => {
   const { hash, pathname } = useLocation();
@@ -162,6 +165,7 @@ const MenuItem = ({
       className={cx([
         "relative w-max py-1",
         "hover:text-blue-600",
+        isChild ? "text-sm" : "",
         pathname === path
           ? pathname === path.split("#")[0]
             ? "text-blue-600"
@@ -179,7 +183,7 @@ const MenuItem = ({
             "top-full transition-all",
             "overflow-hidden md:absolute left-0",
           ])}
-          style={{ height: active ? 186 : 0 }}
+          style={{ height: active ? 22 + 7 * 28 : 0 }}
         >
           {subMenu}
         </div>

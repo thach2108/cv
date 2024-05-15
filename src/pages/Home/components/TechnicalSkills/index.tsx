@@ -1,5 +1,4 @@
 import H1 from "components/H1";
-import Layout from "components/Layout";
 import { MENU } from "utils/constants";
 import { data } from "./data";
 
@@ -36,21 +35,18 @@ export const TechnicalSkillsTable = ({
   );
 };
 
-const TechnicalSkillsChild = () => {
+const TechnicalSkills = () => {
   return (
     <section>
+      <div
+        id={MENU[0]?.children?.[5]?.path.replace("/#", "")}
+        className="absolute"
+        style={{ top: "-110px" }}
+      ></div>
       <H1>{MENU[1]?.text}</H1>
       <TechnicalSkillsTable data={data} className="even" />
     </section>
   );
 };
-
-function TechnicalSkills() {
-  return (
-    <Layout>
-      <TechnicalSkillsChild />
-    </Layout>
-  );
-}
 
 export default TechnicalSkills;

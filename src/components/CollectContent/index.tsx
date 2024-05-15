@@ -1,11 +1,15 @@
 import H1 from "components/H1";
-import { AttendedProjectsTable } from "pages/AttendedProjects";
-import { data as projects } from "pages/AttendedProjects/data";
-import { S1, S2, S3, S4, S5 } from "pages/Home";
-import { TechnicalSkillsTable } from "pages/TechnicalSkills";
-import { data as skills } from "pages/TechnicalSkills/data";
+import { AttendedProjectsTable } from "pages/Home/components/AttendedProjects";
+import { data as projects } from "pages/Home/components/AttendedProjects/data";
+import { TechnicalSkillsTable } from "pages/Home/components/TechnicalSkills";
+import { data as skills } from "pages/Home/components/TechnicalSkills/data";
 import { MENU } from "utils/constants";
 
+import Education from "pages/Home/components/Education";
+import LanguageSkill from "pages/Home/components/LanguageSkill";
+import Overview from "pages/Home/components/Overview";
+import PersonalDetail from "pages/Home/components/PersionalDetail";
+import WorkingHistory from "pages/Home/components/WorkingHistory";
 import "../../App.scss";
 import "../../index.scss";
 
@@ -18,14 +22,14 @@ function CollectContent() {
       }}
       className="max-w-screen-xl m-auto"
     >
-      <S1 />
-      <S2 />
-      <S3 />
-      <S4 />
+      <PersonalDetail layoutClass="flex" />
+      <Overview />
+      <Education />
+      <LanguageSkill />
       <br />
       <br />
       <br />
-      <S5 />
+      <WorkingHistory />
       <section>
         <H1>{MENU[1]?.text}</H1>
         <TechnicalSkillsTable data={skills.slice(0, 12)} />
@@ -40,7 +44,6 @@ function CollectContent() {
       <section>
         <H1>{MENU[2]?.text}</H1>
         <AttendedProjectsTable data={projects.slice(0, 3)} />
-        <br />
         <br />
         <br />
         <br />

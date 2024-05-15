@@ -58,7 +58,7 @@ export const data = [
     {
       tag: "th",
       rowSpan: 5,
-      text: "Programming Tool",
+      text: "Tool",
     },
     {
       text: "Visual Studio Code",
@@ -70,11 +70,10 @@ export const data = [
   ],
   [
     {
-      text: "Debugger Tool (by Visual Studio Code)",
+      text: "Sourcetree",
     },
     {
-      tag: "th",
-      text: "Very good",
+      text: "Good",
     },
   ],
   [
@@ -90,8 +89,7 @@ export const data = [
       text: "TransType 4 (convert between .svg, .otf, .tff, .eot, .woff, .woff2)",
     },
     {
-      tag: "th",
-      text: "Very good",
+      text: "Good",
     },
   ],
   [
@@ -100,7 +98,7 @@ export const data = [
         <>
           DIY tools
           <ul>
-            <li>✓ This use Pug, Sass, Webpack, …</li>
+            <li>✓ Includes Pug, Sass, Webpack, …</li>
             <li>
               ✓ This help transform the design files (Photoshop, Figma) to HTML,
               CSS, JS faster
@@ -198,7 +196,7 @@ export const data = [
     {
       text: "Test automation (unit test, e2e using Protractor)",
     },
-    { tag: "th", text: "Very good" },
+    { text: "Good" },
   ],
   [
     {

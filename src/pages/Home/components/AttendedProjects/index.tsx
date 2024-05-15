@@ -1,5 +1,4 @@
 import H1 from "components/H1";
-import Layout from "components/Layout";
 import { MENU } from "utils/constants";
 import { data } from "./data";
 
@@ -37,21 +36,18 @@ export const AttendedProjectsTable = ({ data }: { data: any }) => {
   );
 };
 
-const AttendedProjectsChild = () => {
+const AttendedProjects = () => {
   return (
     <section>
+      <div
+        id={MENU[0]?.children?.[6]?.path.replace("/#", "")}
+        className="absolute"
+        style={{ top: "-110px" }}
+      ></div>
       <H1>{MENU[2]?.text}</H1>
       <AttendedProjectsTable data={data} />
     </section>
   );
 };
-
-function AttendedProjects() {
-  return (
-    <Layout>
-      <AttendedProjectsChild />
-    </Layout>
-  );
-}
 
 export default AttendedProjects;

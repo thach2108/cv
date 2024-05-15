@@ -29,15 +29,15 @@ export const MENU: MenuType[] = [
         path: "/#working-history",
         text: "Working History",
       },
+      {
+        path: "/#skills",
+        text: "Technical Skills",
+      },
+      {
+        path: "/#attended-projects",
+        text: "Attended Projects",
+      },
     ],
-  },
-  {
-    path: "/skills",
-    text: "Technical Skills",
-  },
-  {
-    path: "/attended-projects",
-    text: "Attended Projects",
   },
   {
     path: "/certs",
