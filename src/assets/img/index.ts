@@ -7,6 +7,7 @@ import html5GameUrl from "./html5-game.png";
 import twoFAUnitestUrl from "./overview-unittest.png";
 import twoFAUrl from "./overview.png";
 import reactBasicUrl from "./react_basic certificate.png";
+import softwareEngineerInternUrl from "./software engineer intern.png";
 import sqlBasicCertUrl from "./sql_basic certificate.png";
 import sqlInterCertUrl from "./sql_intermediate certificate.png";
 
@@ -22,4 +23,5 @@ export const Img = {
   sqlBasicCertUrl,
   sqlInterCertUrl,
   twoFAUnitestUrl,
+  softwareEngineerInternUrl,
 };
