@@ -423,7 +423,7 @@ export const data = [
       text: (
         <ul className="list-disc ml-6">
           <li>
-            <b>In Training time</b>
+            <b>In training time</b>
           </li>
         </ul>
       ),

@@ -61,7 +61,7 @@ export const data = [
       text: "Tool",
     },
     {
-      text: "Visual Studio Code",
+      text: "Visual Studio Code, Chat GPT",
     },
     {
       tag: "th",
@@ -89,7 +89,7 @@ export const data = [
       text: "TransType 4 (convert between .svg, .otf, .tff, .eot, .woff, .woff2)",
     },
     {
-      text: "Good",
+      text: "Fundamental Awareness",
     },
   ],
   [

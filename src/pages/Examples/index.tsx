@@ -13,10 +13,30 @@ function Examples() {
             <a
               target="_blank"
               rel="noreferrer"
+              href="https://thach2108.github.io/fundiin/"
+              className="underline underline-offset-2 text-green-500"
+            >
+              Fundiin
+              <img
+                src={Img.fundiinUrl}
+                className="cover-img"
+                alt="Fundiin landing page"
+              />
+            </a>
+          </li>
+          <li className="mb-5">
+            <a
+              target="_blank"
+              rel="noreferrer"
               href="https://thach2108.github.io/react-count-down/"
               className="underline underline-offset-2 text-green-500"
             >
               React Count Down Animation Library
+              <img
+                alt="Canvas Game"
+                className="cover-img"
+                src={Img.reactCountDownUrl}
+              />
             </a>
           </li>
           <li className="mb-5">
@@ -49,7 +69,7 @@ function Examples() {
                 alt="Canvas Game"
                 className="cover-img"
                 src={Img.canvasGameUrl}
-              />{" "}
+              />
             </a>
           </li>
           <li className="mb-5">
@@ -64,22 +84,7 @@ function Examples() {
                 className="cover-img"
                 src={Img.html5GameUrl}
                 alt="HTML5 Game example"
-              />{" "}
-            </a>
-          </li>
-          <li className="mb-5">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://thach2108.github.io/fundiin/"
-              className="underline underline-offset-2 text-green-500"
-            >
-              Fundiin
-              <img
-                src={Img.fundiinUrl}
-                className="cover-img"
-                alt="Fundiin landing page"
-              />{" "}
+              />
             </a>
           </li>
         </ul>
