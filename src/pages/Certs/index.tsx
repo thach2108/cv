@@ -28,21 +28,6 @@ export const CertChild = () => {
             target="_blank"
             rel="noreferrer"
             className="underline underline-offset-2 text-green-500"
-            href="https://www.hackerrank.com/certificates/84117b6a2ba5"
-          >
-            Software Engineer Intern Certificate
-            <img
-              className="cover-img"
-              src={Img.softwareEngineerInternUrl}
-              alt="Software Engineer Intern Certificate"
-            />
-          </a>
-        </li>
-        <li className="mb-5">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-2 text-green-500"
             href="https://www.hackerrank.com/certificates/0295b14882b1"
           >
             Frontend Developer (React) Certificate
@@ -65,36 +50,6 @@ export const CertChild = () => {
               className="cover-img"
               src={Img.sqlInterCertUrl}
               alt="Sql intermediate certificate"
-            />
-          </a>
-        </li>
-        <li className="mb-5">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-2 text-green-500"
-            href="https://www.hackerrank.com/certificates/8e142ba6c3a7"
-          >
-            React basic certificate
-            <img
-              className="cover-img"
-              src={Img.reactBasicUrl}
-              alt="React basic certificate"
-            />
-          </a>
-        </li>
-        <li className="mb-5">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-2 text-green-500"
-            href="https://www.hackerrank.com/certificates/a2fa2f82f1cf"
-          >
-            Sql basic certificate
-            <img
-              className="cover-img"
-              src={Img.sqlBasicCertUrl}
-              alt="Sql basic certificate"
             />
           </a>
         </li>

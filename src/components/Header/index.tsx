@@ -91,7 +91,7 @@ function Header() {
           <Menu key={m.path} m={m} />
         ))}
         <li className="text-gray-600 w-max py-1 flex items-center relative hover:text-blue-600">
-          <button onClick={handleExport}>
+          <button onClick={handleExport} className="animate-zoomInOut">
             {exporting ? "Exporting..." : "Export pdf"}
           </button>
         </li>

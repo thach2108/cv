@@ -23,7 +23,7 @@ export const MENU: MenuType[] = [
       },
       {
         path: "/#language-skill",
-        text: "Language Skill",
+        text: "Language Skills",
       },
       {
         path: "/#working-history",

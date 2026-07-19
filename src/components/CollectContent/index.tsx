@@ -29,39 +29,29 @@ function CollectContent() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
       <WorkingHistory />
       <section>
-        <H1>{MENU[1]?.text}</H1>
-        <TechnicalSkillsTable data={skills.slice(0, 12)} />
+        <H1>{(MENU[0]?.children || [])[5]?.text}</H1>
+        <TechnicalSkillsTable data={skills.slice(0, 10)} />
         <br />
         <br />
         <br />
-        <div style={{ paddingBottom: "0.75rem" }}></div>
         <br />
         <br />
-        <TechnicalSkillsTable data={skills.slice(12, 22)} />
+        <TechnicalSkillsTable data={skills.slice(10, 22)} />
       </section>
       <section>
-        <H1>{MENU[2]?.text}</H1>
-        <AttendedProjectsTable data={projects.slice(0, 3)} />
+        <H1>{(MENU[0]?.children || [])[6]?.text}</H1>
+        <AttendedProjectsTable data={projects.slice(0, 2)} />
         <br />
         <br />
         <br />
         <br />
         <br />
-        <AttendedProjectsTable data={projects.slice(3, 6)} />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <AttendedProjectsTable data={projects.slice(6, 9)} />
+        <AttendedProjectsTable data={projects.slice(2, 6)} />
         <br />
         <br />
         <br />
@@ -69,7 +59,15 @@ function CollectContent() {
         <br />
         <br />
         <br />
-        <AttendedProjectsTable data={projects.slice(10, 14)} />
+        <br />
+        <br />
+        <br />
+        <AttendedProjectsTable data={projects.slice(7, 11)} />
+        <br />
+        <br />
+        <br />
+        <br />
+        <AttendedProjectsTable data={projects.slice(12, 14)} />
       </section>
     </div>
   );

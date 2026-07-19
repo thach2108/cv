@@ -28,11 +28,8 @@ export const data = [
             <b>Position: </b>Teamleader
           </li>
           <li>
-            <b>Responsibilities: </b>
+            <b>Responsibilities: </b> Breaking task, assign to team members and review their code. Training new members
           </li>
-          <ul>
-            <li>✓ Breaking task, assign to team members and review their code. Training new members</li>
-          </ul>
           <li>
             <b>Technologies used: </b> Javascript, Chat GPT
           </li>
@@ -64,11 +61,8 @@ export const data = [
             <b>Position: </b>Developer
           </li>
           <li>
-            <b>Responsibilities: </b>
+            <b>Responsibilities: </b> Do coding new features, fix bug
           </li>
-          <ul>
-            <li>✓ Do coding new features, fix bug</li>
-          </ul>
           <li>
             <b>Technologies used: </b> ReactJs, Redux, Java, Rest Api, Jenkins,
             Mui, Mysql
@@ -135,12 +129,7 @@ export const data = [
             <b>Position: </b>Developer
           </li>
           <li>
-            <b>Responsibilities:</b>
-            <ul>
-              <li>✓ Do codding new features, fix bug</li>
-              <li>✓ Review source code</li>
-              <li>✓ Help other members in finding solution</li>
-            </ul>
+            <b>Responsibilities:</b> Do codding new features, fix bug; Review source code; Help other members in finding solution            
           </li>
           <li>
             <b>Technologies used:</b> ReactJS, redux, tailwind, material UI,
@@ -173,12 +162,7 @@ export const data = [
             <b>Position: </b>Developer
           </li>
           <li>
-            <b>Responsibilities: </b>
-            <ul>
-              <li>✓ Restructure file/folder and functions, cleaning code</li>
-              <li>✓ Remove unuse libraries for improve performance</li>
-              <li>✓ Remake CSS</li>
-            </ul>
+            <b>Responsibilities: </b> Restructure file/folder and functions, cleaning code; Remove unuse libraries for improve performance; Remake CSS
           </li>
           <li>
             <b>Technologies used: </b> ReactJS, redux, ant design, Rest Api,
@@ -212,10 +196,7 @@ export const data = [
             <b>Position: </b>Developer
           </li>
           <li>
-            <b>Responsibilities: </b>
-            <ul>
-              <li>✓ Do whole FE part in project</li>
-            </ul>
+            <b>Responsibilities: </b> Do whole FE part in project
           </li>
           <li>
             <b>Technologies used: </b> ReactJS, redux, tailwind
@@ -257,13 +238,8 @@ export const data = [
             <b>Position: </b>Developer
           </li>
           <li>
-            <b>Responsibilities: </b>
+            <b>Responsibilities: Do coding new features, fix bug; Estimate and planning; Review source code</b>
           </li>
-          <ul>
-            <li>✓ Do coding new features, fix bug</li>
-            <li>✓ Estimate and planning</li>
-            <li>✓ Review source code</li>
-          </ul>
           <li>
             <b>Technologies used: </b> JavaScript, Vue, .net, Rest Api, 360
             Viewer, Sql Server
@@ -309,10 +285,7 @@ export const data = [
             <b>Position: </b>Developer
           </li>
           <li>
-            <b>Responsibilities: </b>
-            <ul>
-              <li>✓ Do whole FE part in project</li>
-            </ul>
+            <b>Responsibilities: </b> Do whole FE part in project
           </li>
           <li>
             <b>Technologies used: </b> Bootstrap, ReactJS, Redux, Python, Ant
@@ -348,11 +321,7 @@ export const data = [
             <b>Position: </b>Developer
           </li>
           <li>
-            <b>Responsibilities:</b>
-            <ul>
-              <li>✓ Do coding and unit test</li>
-              <li>✓ Estimate and planning</li>
-            </ul>
+            <b>Responsibilities:</b> Do coding and unit test; Estimate and planning
           </li>
           <li>
             <b>Technologies used:</b> bootstrap, angular 8, angular 10, .net
@@ -385,11 +354,7 @@ export const data = [
             <b>Position: </b>Developer
           </li>
           <li>
-            <b>Responsibilities: </b>
-            <ul>
-              <li>✓ Do coding new feature, fix bug</li>
-              <li>✓ Estimate and planning</li>
-            </ul>
+            <b>Responsibilities: </b> Do coding new feature, fix bug; Estimate and planning
           </li>
           <li>
             <b>Technologies used: </b> Bootstrap, Angular 8, .net core, Ant
@@ -433,11 +398,7 @@ export const data = [
             <b>Position: </b> Developer
           </li>
           <li>
-            <b>Responsibilities: </b>
-            <ul>
-              <li>✓ Do coding new feature, fix bug</li>
-              <li>✓ Estimate and planning</li>
-            </ul>
+            <b>Responsibilities: </b> Do coding new feature, fix bug; Estimate and planning
           </li>
           <li>
             <b>Technologies used: </b> Jquery, Bootstrap, Canvas, Rest Api,

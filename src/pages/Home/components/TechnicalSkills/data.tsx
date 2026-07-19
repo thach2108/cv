@@ -57,7 +57,7 @@ export const data = [
   [
     {
       tag: "th",
-      rowSpan: 6,
+      rowSpan: 4,
       text: "Tool",
     },
     {
@@ -70,15 +70,15 @@ export const data = [
   ],
   [
     {
-      text: "Create AI chatbot using ChatGPT API, LangChain, LLM Models, Vector Database…",
+      text: "Photoshop, Figma (select layer, transform to CSS)",
     },
     {
-      text: "Good",
+      text: "Fundamental Awareness",
     },
   ],
   [
     {
-      text: "Photoshop, Figma (select layer, transform to CSS)",
+      text: "TransType 4 (convert between .svg, .otf, .tff, .eot, .woff, .woff2)",
     },
     {
       text: "Fundamental Awareness",
@@ -106,15 +106,11 @@ export const data = [
   ],
   [
     {
-      text: "TransType 4 (convert between .svg, .otf, .tff, .eot, .woff, .woff2)",
+      tag: "th",
+      text: "AI",
     },
     {
-      text: "Fundamental Awareness",
-    },
-  ],
-  [
-    {
-      text: "Sourcetree",
+      text: "Create AI chatbot using ChatGPT API, LangChain, LLM Models, Vector Database…",
     },
     {
       text: "Good",

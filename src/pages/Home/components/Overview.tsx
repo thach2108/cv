@@ -22,6 +22,7 @@ function Overview() {
         <li>Have experience as a team leader: assigning tasks, controlling quality, and training new members.</li>
         <li>Have experience developing AI chatbots using the OpenAI API, creating AI Agents, and writing effective prompts.</li>
         <li>Good problem-solving mindset, quick research, and willingness to learn new technologies.</li>
+        <li>Visit my website to view more details: <a href="https://thach2108.github.io" target="_blank" className="text-blue-500 hover:underline">https://thach2108.github.io</a></li>
       </ul>
     </section>
   );
