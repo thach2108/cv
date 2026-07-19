@@ -31,7 +31,7 @@ const WorkingHistory = () => {
                 FPT Software
               </a>
             </td>
-            <td>Front-end</td>
+            <td>Front-end, Teamleader</td>
           </tr>
           <tr>
             <td>06/2022 - 06/2023</td>

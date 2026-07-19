@@ -18,7 +18,7 @@ export const data = [
       text: "PHP (Laravel)",
     },
     {
-      text: "Limited Experience",
+      text: "Fundamental Awareness",
     },
   ],
   [
@@ -26,7 +26,7 @@ export const data = [
       text: "Python (Tornado)",
     },
     {
-      text: "Limited Experience",
+      text: "Fundamental Awareness",
     },
   ],
   [
@@ -34,7 +34,7 @@ export const data = [
       text: "NodeJS (Express)",
     },
     {
-      text: "Limited Experience",
+      text: "Fundamental Awareness",
     },
   ],
   [
@@ -42,7 +42,7 @@ export const data = [
       text: "My SQL, SQL Server",
     },
     {
-      text: "Limited Experience",
+      text: "Fundamental Awareness",
     },
   ],
   [
@@ -50,18 +50,18 @@ export const data = [
       text: "C#",
     },
     {
-      text: "Limited Experience",
+      text: "Fundamental Awareness",
     },
   ],
   // new skill
   [
     {
       tag: "th",
-      rowSpan: 5,
+      rowSpan: 6,
       text: "Tool",
     },
     {
-      text: "Visual Studio Code, Chat GPT",
+      text: "Visual Studio Code, Github Copilot",
     },
     {
       tag: "th",
@@ -70,7 +70,7 @@ export const data = [
   ],
   [
     {
-      text: "Sourcetree",
+      text: "Create AI chatbot using ChatGPT API, LangChain, LLM Models, Vector Database…",
     },
     {
       text: "Good",
@@ -79,14 +79,6 @@ export const data = [
   [
     {
       text: "Photoshop, Figma (select layer, transform to CSS)",
-    },
-    {
-      text: "Fundamental Awareness",
-    },
-  ],
-  [
-    {
-      text: "TransType 4 (convert between .svg, .otf, .tff, .eot, .woff, .woff2)",
     },
     {
       text: "Fundamental Awareness",
@@ -112,7 +104,22 @@ export const data = [
       text: "Very good",
     },
   ],
-  // new skill
+  [
+    {
+      text: "TransType 4 (convert between .svg, .otf, .tff, .eot, .woff, .woff2)",
+    },
+    {
+      text: "Fundamental Awareness",
+    },
+  ],
+  [
+    {
+      text: "Sourcetree",
+    },
+    {
+      text: "Good",
+    },
+  ],
   [
     {
       tag: "th",
@@ -122,14 +129,13 @@ export const data = [
       text: "Agile/Scrum",
     },
     {
-      text: "Fundamental Awareness",
+      text: "Good",
     },
   ],
-  // new skill
   [
     {
       tag: "th",
-      rowSpan: 4,
+      rowSpan: 3,
       text: "Library",
     },
     {
@@ -150,6 +156,22 @@ export const data = [
   ],
   [
     {
+      text: "Bootstrap, jQuery, Ant design, Redux, Tailwind, Material UI, sortable library, split library, virtual scrolling library, …",
+    },
+    { tag: "th", text: "Very good" },
+  ],
+  [
+    {
+      tag: "th", text: "Framework",
+      rowSpan: 2,
+    },
+    {
+      text: "Angular 2+",
+    },
+    { tag: "th", text: "Very good" },
+  ],
+  [
+    {
       text: "AngularJS",
     },
     {
@@ -157,28 +179,12 @@ export const data = [
     },
   ],
   [
-    {
-      text: "Bootstrap, jQuery, Ant design, Redux, Tailwind, Material UI, sortable library, split library, virtual scrolling library, …",
-    },
-    { tag: "th", text: "Very good" },
-  ],
-  // new skill
-  [
-    { tag: "th", text: "Framework" },
-    {
-      text: "Angular",
-    },
-    { tag: "th", text: "Very good" },
-  ],
-  // new skill
-  [
     { tag: "th", text: "Os" },
     {
       text: "Mac Os (hackintosh), Windows 11, Ubuntu",
     },
     { tag: "th", text: "Very good" },
   ],
-  // new skill
   [
     { tag: "th", rowSpan: 4, text: "Other" },
     {

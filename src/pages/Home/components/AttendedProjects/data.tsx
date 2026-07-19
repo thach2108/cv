@@ -7,6 +7,41 @@ export const data = [
   ],
   [
     {
+      text: "06/2024- 06/2026",
+    },
+    {
+      text: "Fpt Software",
+    },
+    {
+      text: (
+        <ul className="list-disc ml-6">
+          <li>
+            <b>Project: </b>SKCC - TMembership (Korean customer)
+          </li>
+          <li>
+            <b>Project description: </b> Create or update features for the generated HTML tool for marketing team, then publish it in the advertising events
+          </li>
+          <li>
+            <b>Team size: </b>5
+          </li>
+          <li>
+            <b>Position: </b>Teamleader
+          </li>
+          <li>
+            <b>Responsibilities: </b>
+          </li>
+          <ul>
+            <li>✓ Breaking task, assign to team members and review their code. Training new members</li>
+          </ul>
+          <li>
+            <b>Technologies used: </b> Javascript, Chat GPT
+          </li>
+        </ul>
+      ),
+    },
+  ],
+  [
+    {
       text: "06/2023- 05/2024",
     },
     {
@@ -85,7 +120,7 @@ export const data = [
       text: (
         <ul className="list-disc ml-6">
           <li>
-            <b>Project:</b> SCG Smart-Campus
+            <b>Project:</b> SCG Smart-Campus (Thailand customer)
           </li>
           <li>
             <b>Project description:</b> The Smart Campus project is a web-based
@@ -126,7 +161,7 @@ export const data = [
       text: (
         <ul className="list-disc ml-6">
           <li>
-            <b>Project: </b> ICS
+            <b>Project: </b> ICS (Australia customer)
           </li>
           <li>
             <b>Project description: </b> Health, Insurance Online
@@ -208,7 +243,7 @@ export const data = [
               className="underline underline-offset-2 text-green-500"
             >
               Electrolux
-            </a>
+            </a> (EU customer)
           </li>
           <li>
             <b>Project description: </b> This is an ecommerce website of
@@ -248,7 +283,7 @@ export const data = [
       text: (
         <ul className="list-disc ml-6">
           <li>
-            <b>Project: </b> Tch_Iot
+            <b>Project: </b> Tch_Iot (Japan customer)
           </li>
           <li>
             <b>Project description: </b> My client has many devices. When they

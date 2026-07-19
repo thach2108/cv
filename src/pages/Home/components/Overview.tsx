@@ -17,27 +17,11 @@ function Overview() {
           {new Date().getMonth() > 5 ? "+" : ""} years of experience in Web
           Development.
         </li>
-        <li>JavaScript, Jquery,</li>
-        <li>Agile/Scrum,</li>
-        <li>
-          HTML5, CSS3 (font-face, animation, keyframes, SEO, responsive, …),
-        </li>
-        <li>ReactJS, Angular 2+, Vue, AngularJS, TypeScript,</li>
-        <li>Perfect pixel, Cross browser compatibility,</li>
-        <li>Photoshop, Figma,</li>
-        <li>Test automation (unit test - jest, e2e test - protractor, ),</li>
-        <li>Git, SVN, Git Flow, Sourcetree</li>
-        <li>RESTful API, Socket IO,</li>
-        <li>
-          PHP (Laravel), C#, Nodejs (Express), Python (SpeechRecognition,
-          Pytorch)
-        </li>
-        <li>bash script, Nginx, Apache, XAMPP, Docker Desktop and CI/CD.</li>
-        <li>MySQL, SQL Server,</li>
-        <li>
-          Good problem-solving mindset, quick research, and willingness to learn
-          new technologies.
-        </li>
+        <li>Have worked on many projects for banks and international clients (Korean, Australia, Thailand, EU, Japan...).</li>
+        <li>Have comprehensive knowledge of the web project development process, including Backend, Frontend, DevOps, etc. However, my expertise is stronger in Frontend.</li>
+        <li>Have experience as a team leader: assigning tasks, controlling quality, and training new members.</li>
+        <li>Have experience developing AI chatbots using the OpenAI API, creating AI Agents, and writing effective prompts.</li>
+        <li>Good problem-solving mindset, quick research, and willingness to learn new technologies.</li>
       </ul>
     </section>
   );
