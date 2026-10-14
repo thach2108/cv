@@ -38,6 +38,8 @@ function CollectContent() {
         <TechnicalSkillsTable data={skills.slice(0, 10)} />
         <br />
         <br />
+        <p style={{marginBottom: 16}}></p>
+        <br />
         <br />
         <br />
         <br />
@@ -48,12 +50,14 @@ function CollectContent() {
         <AttendedProjectsTable data={projects.slice(0, 2)} />
         <br />
         <br />
+        <p style={{marginBottom: 12}}></p>
         <br />
         <br />
         <br />
         <AttendedProjectsTable data={projects.slice(2, 6)} />
         <br />
         <br />
+        <p style={{marginBottom: 4}}></p>
         <br />
         <br />
         <br />
@@ -64,6 +68,8 @@ function CollectContent() {
         <br />
         <AttendedProjectsTable data={projects.slice(7, 11)} />
         <br />
+        <br />
+        <p style={{marginBottom: 4}}></p>
         <br />
         <br />
         <br />

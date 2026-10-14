@@ -228,7 +228,7 @@ export const data = [
           </li>
           <li>
             <b>Project description: </b> This is an ecommerce website of
-            Electrolux company. The user can find company’s products, see
+            Electrolux. The user can find products, see
             detail, then order them
           </li>
           <li>
@@ -309,8 +309,7 @@ export const data = [
             <b>Project:</b> Vadar, SafeSAI
           </li>
           <li>
-            <b>Project description:</b> We collect security logs in devices (pc,
-            mobile, ...), analyze and detect the risk of attack early. summary
+            <b>Project description:</b> We collect security logs in devices, analyze and detect the risk of attack early. summary
             the information then displays it in chart and notify user as soon as
             possible.
           </li>
