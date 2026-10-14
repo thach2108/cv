@@ -42,7 +42,7 @@ export const data = [
       text: "My SQL, SQL Server",
     },
     {
-      text: "Fundamental Awareness",
+      text: "Good",
     },
   ],
   [
@@ -50,7 +50,7 @@ export const data = [
       text: "C#",
     },
     {
-      text: "Fundamental Awareness",
+      text: "Good",
     },
   ],
   // new skill

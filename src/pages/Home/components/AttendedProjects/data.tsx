@@ -7,7 +7,7 @@ export const data = [
   ],
   [
     {
-      text: "06/2024- 06/2026",
+      text: "06/2024- 09/2026",
     },
     {
       text: "Fpt Software",
@@ -31,7 +31,7 @@ export const data = [
             <b>Responsibilities: </b> Breaking task, assign to team members and review their code. Training new members
           </li>
           <li>
-            <b>Technologies used: </b> Javascript, Chat GPT
+            <b>Technologies used: </b> Javascript, Java, AI Agents
           </li>
         </ul>
       ),
@@ -166,7 +166,7 @@ export const data = [
           </li>
           <li>
             <b>Technologies used: </b> ReactJS, redux, ant design, Rest Api,
-            .net core
+            .net core(C#), Mysql
           </li>
         </ul>
       ),
@@ -241,7 +241,7 @@ export const data = [
             <b>Responsibilities: Do coding new features, fix bug; Estimate and planning; Review source code</b>
           </li>
           <li>
-            <b>Technologies used: </b> JavaScript, Vue, .net, Rest Api, 360
+            <b>Technologies used: </b> JavaScript, Vue, .net(C#), Rest Api, 360
             Viewer, Sql Server
           </li>
         </ul>
@@ -289,7 +289,7 @@ export const data = [
           </li>
           <li>
             <b>Technologies used: </b> Bootstrap, ReactJS, Redux, Python, Ant
-            design, Rest Api, Oauth2, ChartJs
+            design, Rest Api, Oauth2, ChartJs, Mysql
           </li>
         </ul>
       ),
@@ -325,7 +325,7 @@ export const data = [
           </li>
           <li>
             <b>Technologies used:</b> bootstrap, angular 8, angular 10, .net
-            core, Ant design, Rest Api, Chart Js
+            core(C#), Ant design, Rest Api, Chart Js, Mysql
           </li>
         </ul>
       ),
@@ -357,8 +357,8 @@ export const data = [
             <b>Responsibilities: </b> Do coding new feature, fix bug; Estimate and planning
           </li>
           <li>
-            <b>Technologies used: </b> Bootstrap, Angular 8, .net core, Ant
-            design
+            <b>Technologies used: </b> Bootstrap, Angular 8, .net core(C#), Ant
+            design, Mysql
           </li>
         </ul>
       ),
